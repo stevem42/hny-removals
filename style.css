@@ -12,21 +12,27 @@ a {
     color: green;
 }
 
+.quote-header > a {
+    color: white;
+}
+
+
+
 hr {
     border-top: 2px solid green;
 }
 
 
 .navbar {
-    padding: .2rem;
+    padding: .8rem;
     border: 2px solid green;
+    background-color: white !important;
 }
 
 .navbar-brand {
     height: 100%;
     padding: 0;
     margin: 0;
-    border: 1px solid green;
 }
 
 
@@ -38,6 +44,10 @@ hr {
 .nav-link {
     font-size: 1.1em !important;
     color: green !important;
+}
+
+.nav-link:hover {
+    background-color: black !important;
 }
 
 .carousel-inner img {
@@ -145,7 +155,7 @@ hr.light-100 {
 }
 
 .phone-number {
-    color: black;
+    color: white;
     font-size: 2rem;
     top: 0px;
     padding-right: 20px;
@@ -160,12 +170,17 @@ hr.light-100 {
     top: 0;
 }
 
+.getquote {
+    color: white !important;
+}
+
 .phone-header {
     padding-left: 2rem;
 
     height: 100%;
     display: inline-flex;
     align-items: center;
+    color: white;
     
 
 }
@@ -182,15 +197,17 @@ hr.light-100 {
 .quote-header {
 
     background-color: black;
-    color: green;
+    color: white !important;
     display: inline-flex;
     align-items: center;
     margin-right: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 
 .quote-header > a:visited {
-    color: green;
+    color: white;
 }
 
 .fa-phone {
@@ -218,7 +235,8 @@ hr.light-100 {
 .cover-image {
     border: 1px solid green;
     width: 100% !important;
-    height: auto;
+    max-height: 75%;
+    top: 2px;
 
 
 }
@@ -227,7 +245,7 @@ hr.light-100 {
 
     position: relative;
     z-index: -1;
-    padding-top:1em;
+    padding-top:1.5em;
 }
 
 .green {
@@ -246,10 +264,18 @@ hr.light-100 {
 
 .book-now {
     background-color: black;
-    color: green;
+    color: white;
     margin-bottom: 10px;
     font-size: 2em;
     border-radius: 7%
+}
+
+.submit {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-radius: 7%  
 }
 
 .small-hr {
@@ -263,6 +289,20 @@ hr.light-100 {
 #fbslides {
     margin-bottom: 40px;
 }
+
+.terms-bold {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fb-post {
+    padding-top: 20px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
 
 
 
@@ -314,6 +354,10 @@ hr.light-100 {
     .carousel-caption {
         top: 40%;
 
+    }
+
+    .carousel-item {
+        width: 350px;
     }
 
     .carousel-caption h1 {
@@ -380,6 +424,16 @@ hr.light-100 {
 
     .cover-image {
         padding-top: 15px;
+    }
+
+
+    .reviews {
+        max-width: 320px;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
 }
