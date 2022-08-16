@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+a {
+    color: green;
+}
+
+hr {
+    border-top: 2px solid green;
+}
+
+
+.navbar {
+    padding: .2rem;
+    border: 2px solid green;
+}
+
+.navbar-brand {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid green;
+}
+
+
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+    color: green !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+}
+.btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid green;
+    width: 95%;
+    margin-top: .3 rem;
+    margin-bottom: .1 rem;
+}
+
+.fa-mobile-alt, .fa-envelope, .fa-address-card {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+
+.gif {
+    max-width: 100%;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.truck {
+    padding-bottom: 8px;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.phone-number {
+    color: black;
+    font-size: 2rem;
+    top: 0px;
+    padding-right: 20px;
+}
+
+.quote {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.5em;
+    background-color: black;
+    height: 100%;
+    top: 0;
+}
+
+.phone-header {
+    padding-left: 2rem;
+
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    
+
+}
+
+.headers {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+
+
+
+.quote-header {
+
+    background-color: black;
+    color: green;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.quote-header > a:visited {
+    color: green;
+}
+
+.fa-phone {
+    padding-right: 10px;
+} 
+
+.phone {
+    top: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: green;
+
+
+}
+
+.newnav {
+    top: 45px;
+}
+
+.quote-button {
+    margin-top: 20em;
+
+}
+
+.cover-image {
+    border: 1px solid green;
+    width: 100% !important;
+    height: auto;
+
+
+}
+
+.image-top {
+
+    position: relative;
+    z-index: -1;
+    padding-top:1em;
+}
+
+.green {
+    color: green;
+}
+
+.shrink {
+    padding-right: 2px;
+    font-size: 1.5em;
+}
+
+.howitworks {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.book-now {
+    background-color: black;
+    color: green;
+    margin-bottom: 10px;
+    font-size: 2em;
+    border-radius: 7%
+}
+
+.small-hr {
+    width: 50%
+}
+
+.fbslide {
+    width: 100%;
+}
+
+#fbslides {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+/*---Media Queries ---*/
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+
+    }
+
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+
+    .display-4 {
+        font-size: 200%
+    }
+
+    .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+  
+    .carousel-caption {
+        top: 40%;
+
+    }
+
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 110%;
+
+    }
+
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 8px 14px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .display-4 {
+        font-size: 160%;
+        margin-bottom: 20px;
+    }
+
+    .social a {
+    font-size: 2em;
+    padding: .7rem;
+    }
+
+    .phone-header {
+
+        padding-left: .6em;
+        padding-right: .01em;
+    }
+
+    .phone-number {
+        font-size: 1.5em;
+    }
+
+    .fa-phone {
+    padding-right: 2px;
+} 
+
+
+
+    .quote {
+        font-size: 1em;
+        padding: 0.7em;
+        margin-top: -0.5em;
+
+    }
+
+
+
+    .quote-header {
+
+        font-size: 1em;
+        padding-left: .5em;
+        padding-right: .2em;
+        margin-right: 0 !important;
+
+    }
+
+    .cover-image {
+        padding-top: 15px;
+    }
+
+}
+
+
+/*---Firefox Bug Fix ---*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+
+/*---Fixed Background Image ---*/
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#fixed {
+    background-image: url('img/background.png');
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+}
+
+/*--- Bootstrao Padding Fix ---*/
+/*
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
